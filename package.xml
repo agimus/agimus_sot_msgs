@@ -13,5 +13,5 @@
   <build_depend>geometry_msgs</build_depend>
   <build_depend>sensor_msgs</build_depend>
 
-  <exec_depend>message_runtime</run_depend>
+  <run_depend>message_runtime</run_depend>
 </package>
