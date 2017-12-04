@@ -1,0 +1,17 @@
+<package>
+  <name>sot_hpp_msgs</name>
+  <version>0.0.0</version>
+  <description> SoT - HPP messages and services. </description>
+  <maintainer email="jmirabel@laas.fr">Joseph Mirabel</maintainer>
+  <author>Joseph Mirabel</author>
+
+  <license>LGPL</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <exec_depend>message_runtime</run_depend>
+</package>
