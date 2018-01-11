@@ -34,6 +34,8 @@ add_service_files(FILES
     SetJointNames.srv
     SetString.srv
     PlugSot.srv
+    GetInt.srv
+    SetInt.srv
   )
 
 add_message_files(FILES
