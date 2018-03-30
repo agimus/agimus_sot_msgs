@@ -1,4 +1,5 @@
-int32 transition_id
+string transition_name
+string graph_name
 ---
 bool success
 string msg
