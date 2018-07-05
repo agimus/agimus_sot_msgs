@@ -1,7 +1,7 @@
 <package>
-  <name>sot_hpp_msgs</name>
+  <name>agimus_sot_msgs</name>
   <version>0.0.0</version>
-  <description> SoT - HPP messages and services. </description>
+  <description> Messages and services for the agimus_sot package </description>
   <maintainer email="jmirabel@laas.fr">Joseph Mirabel</maintainer>
   <author>Joseph Mirabel</author>
 
