@@ -36,6 +36,7 @@ add_service_files(FILES
     PlugSot.srv
     GetInt.srv
     SetInt.srv
+    SetPose.srv
   )
 
 add_message_files(FILES
