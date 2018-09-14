@@ -35,6 +35,8 @@ add_service_files(FILES
     SetString.srv
     PlugSot.srv
     GetInt.srv
+    ReadQueue.srv
+    # Still useful ?
     SetInt.srv
     SetPose.srv
   )
