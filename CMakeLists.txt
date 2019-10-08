@@ -23,7 +23,6 @@ INCLUDE(cmake/base.cmake)
 SET(PROJECT_NAME agimus_sot_msgs)
 SET(PROJECT_DESCRIPTION "Messages and services for the agimus_sot package")
 SET(PROJECT_URL "")
-SET(PROJECT_VERSION "")
 
 SET(INSTALL_DOCUMENTATION OFF)
 SETUP_PROJECT()
@@ -36,7 +35,7 @@ add_service_files(FILES
     PlugSot.srv
     GetInt.srv
     ReadQueue.srv
-    # Still useful ?
+    # Still useful ?
     SetInt.srv
     SetPose.srv
   )
