@@ -35,6 +35,7 @@ add_service_files(FILES
     PlugSot.srv
     GetInt.srv
     ReadQueue.srv
+    WaitForMinQueueSize.srv
     # Still useful ?
     SetInt.srv
     SetPose.srv
