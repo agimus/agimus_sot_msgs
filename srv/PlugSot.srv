@@ -2,4 +2,6 @@ string transition_name
 string graph_name
 ---
 bool success
+# SoT time at which the change occurs starts.
+int32 start_time
 string msg

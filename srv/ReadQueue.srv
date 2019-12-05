@@ -5,4 +5,6 @@ float64 duration
 float64 timeout
 ---
 bool success
+# SoT time at which reading starts.
+int32 start_time
 string message
