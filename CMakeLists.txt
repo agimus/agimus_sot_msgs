@@ -31,6 +31,7 @@ find_package(catkin REQUIRED COMPONENTS sensor_msgs geometry_msgs message_genera
 
 add_service_files(FILES
     SetJointNames.srv
+    GetJointNames.srv
     SetString.srv
     PlugSot.srv
     GetInt.srv
