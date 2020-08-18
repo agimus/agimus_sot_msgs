@@ -18,14 +18,17 @@
 # Requires at least CMake 2.6 to configure the package.
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 
-INCLUDE(cmake/base.cmake)
+set(PROJECT_NAME agimus_sot_msgs)
+set(PROJECT_DESCRIPTION "Messages and services for the agimus_sot package")
+set(PROJECT_URL "")
+set(PROJECT_USE_CMAKE_EXPORT TRUE)
+set(PROJECT_EXPORT_NO_TARGET TRUE)
+set(INSTALL_DOCUMENTATION OFF)
 
-SET(PROJECT_NAME agimus_sot_msgs)
-SET(PROJECT_DESCRIPTION "Messages and services for the agimus_sot package")
-SET(PROJECT_URL "")
+include(cmake/base.cmake)
 
-SET(INSTALL_DOCUMENTATION OFF)
-SETUP_PROJECT()
+compute_project_args(PROJECT_ARGS LANGUAGES CXX)
+project(${PROJECT_NAME} ${PROJECT_ARGS})
 
 find_package(catkin REQUIRED COMPONENTS sensor_msgs geometry_msgs message_generation)
 
@@ -50,5 +53,3 @@ add_message_files(FILES
 generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs)
 
 catkin_package(DEPENDS message_runtime)
-
-SETUP_PROJECT_FINALIZE()
