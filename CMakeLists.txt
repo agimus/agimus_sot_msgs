@@ -40,6 +40,7 @@ add_service_files(FILES
     GetInt.srv
     ReadQueue.srv
     WaitForMinQueueSize.srv
+    GetBasePoseAtParam.srv
     # Still useful ?
     SetInt.srv
     SetPose.srv

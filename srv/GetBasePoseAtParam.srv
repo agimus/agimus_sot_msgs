@@ -1,0 +1,4 @@
+uint64 pathId
+float64 param
+---
+geometry_msgs/Pose pose
