@@ -39,11 +39,12 @@ add_service_files(FILES
     PlugSot.srv
     GetInt.srv
     ReadQueue.srv
-    WaitForMinQueueSize.srv
     GetBasePoseAtParam.srv
     # Still useful ?
     SetInt.srv
     SetPose.srv
+    WaitForQueueRecData.srv
+    SetQueueRecData.srv
   )
 
 add_message_files(FILES

@@ -1,4 +1,3 @@
-int32 minQueueSize
 # timeout in seconds
 float64 timeout
 ---
