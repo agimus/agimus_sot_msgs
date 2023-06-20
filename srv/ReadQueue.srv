@@ -1,4 +1,4 @@
-int32 delay
+int64 delay
 int32 minQueueSize
 float64 duration
 # timeout in seconds
@@ -6,5 +6,5 @@ float64 timeout
 ---
 bool success
 # SoT time at which reading starts.
-int32 start_time
+int64 start_time
 string message
